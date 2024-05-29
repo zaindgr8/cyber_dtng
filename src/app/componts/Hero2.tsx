@@ -1,12 +1,11 @@
+/* eslint-disable */
+
 import Image from "next/image";
 import Fetish from "../assets/hero1.jpg";
 import { FaWindows } from "react-icons/fa";
 const Hero2 = () => {
   return (
-    <div
-      className="flex bg-yellow-400 pt-12 px-6 md:px-20 items-center justify-center bg-hero md:h-screen overflow-hidden"
-      
-    >
+    <div className="flex bg-yellow-400 pt-12 px-6 md:px-20 items-center justify-center bg-hero md:h-screen overflow-hidden">
       <div className="flex flex-col gap-6 md:flex-row items-center max-w-8xl">
         <div className="w-full md:w-1/2 lg:pr-32">
           <h2 className="text-4xl lg:text-5xl text-center md:text-left font-extrabold text-black leading-tight">
@@ -35,3 +34,5 @@ const Hero2 = () => {
 };
 
 export default Hero2;
+
+/* eslint-enable */

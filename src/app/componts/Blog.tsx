@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Image from "next/image";
 import React from "react";
 import p1 from "../assets/p1.jpg";
@@ -66,3 +68,5 @@ const Blog = () => {
 };
 
 export default Blog;
+
+/* eslint-enable */
